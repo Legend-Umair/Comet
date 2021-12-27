@@ -48,7 +48,7 @@
     "winston": "^3.3.3"
   },
   "engines": {
-    "yarn": "3.x.x"
+    "yarn": "2.x"
   },
   "devDependencies": {
     "bufferutil": "^4.0.5",
