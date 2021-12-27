@@ -1,1 +1,1 @@
-worker: yarn run bot
+worker: node src/bot.js
