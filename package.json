@@ -49,11 +49,5 @@
   },
   "engines": {
     "yarn": "2.x"
-  },
-  "devDependencies": {
-    "bufferutil": "^4.0.5",
-    "erlpack": "^0.1.4",
-    "utf-8-validate": "^5.0.7",
-    "zlib-sync": "^0.1.7"
   }
 }
