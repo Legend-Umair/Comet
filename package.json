@@ -1,0 +1,59 @@
+{
+  "name": "comet",
+  "version": "1.0.0",
+  "description": "A Simple Multipurpose Discord Bot With Many Helpful Commands And Features!",
+  "main": "bot.js",
+  "repository": "https://github.com/Legend-Umair/Comet.git",
+  "author": "Legend Umair ★ <arikaproxd.0@gmail.com>",
+  "license": "Apache-2.0",
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "bot": "node src/bot.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.10.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "@iamtraction/google-translate": "^1.1.2",
+    "ascii-table": "^0.0.9",
+    "axios": "^0.24.0",
+    "canvas": "^2.8.0",
+    "chalk": "4.1.2",
+    "common-tags": "^1.8.2",
+    "discord-api-types": "^0.26.0",
+    "discord-canvas": "^1.4.1",
+    "discord-giveaways": "^5.0.1",
+    "discord-purger": "^1.0.2",
+    "discord-together": "^1.3.25",
+    "discord.js": "^13.4.0",
+    "discord.js-akinator": "^3.3.1",
+    "dotenv": "^10.0.0",
+    "easy-discord-chatbot": "^0.0.4",
+    "figlet": "^1.5.2",
+    "flip-text": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "isgd": "^1.1.3",
+    "js-yaml": "^4.1.0",
+    "mal-scraper": "^2.11.3",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^6.1.3",
+    "ms": "^2.1.3",
+    "node-fetch": "2.6.6",
+    "node-os-utils": "^1.3.5",
+    "path": "^0.12.7",
+    "pino": "^7.6.1",
+    "quick.db": "^7.1.3",
+    "simply-djs": "^2.5.1",
+    "validator": "^13.7.0",
+    "winston": "^3.3.3"
+  },
+  "engines": {
+    "yarn": "3.x.x"
+  },
+  "devDependencies": {
+    "bufferutil": "^4.0.5",
+    "erlpack": "^0.1.4",
+    "utf-8-validate": "^5.0.7",
+    "zlib-sync": "^0.1.7"
+  }
+}
