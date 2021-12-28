@@ -19,6 +19,9 @@ module.exports = {
         if (gData) {
             await afk.delete(message.author.id)
             message.reply(`Welcome Back! I Have Removed Your AFK!`)
+            try {
+                message.member.setNickname("");
+            } catch (e) {};
         }
     }
 }

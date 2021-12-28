@@ -23,7 +23,7 @@ module.exports = {
 	// .addChannelOption(option => option.setName('destination').setDescription('Select a channel'))
 	// .addRoleOption(option => option.setName('muted').setDescription('Select a role'))
 	// .addMentionableOption(option => option.setName('mentionable').setDescription('Mention something')),
-	, memberpermissions: [], owneronly: "false",
+	, memberpermissions: [], botpermissions: ["MANAGE_NICKNAMES"], owneronly: "false",
 	 async execute(interaction, client) {
 		try {
 		// const string = interaction.options.getString('input');
@@ -49,6 +49,7 @@ module.exports = {
 			.setColor(color)
 			.setThumbnail(icon)
 
+			interaction.member.setNickname(`[AFK] ${interaction.user.username}`)
 			interaction.reply({ embeds: [embed] });
 		// };
 		} catch (e) {
