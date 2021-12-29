@@ -46,8 +46,8 @@
     "validator": "^13.7.0",
     "winston": "^3.3.3"
   },
-"engines": {
-   "node": "16.x",
-   "npm": "7.x"
-}
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  }
 }
